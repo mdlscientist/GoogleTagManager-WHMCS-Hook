@@ -15,7 +15,7 @@ function google_tag_manager_hook($vars) { return <<<HTML
             j.async = true;
             j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
             f.parentNode.insertBefore(j, f);
-        })(window, document, 'script', 'dataLayer', 'CONTAINER_ID_GOES_HERE'); // Add your Google Container ID
+        })(window, document, 'script', 'dataLayer', 'GOOGLE_CONTAINER_ID_GOES_HERE'); 
     </script>
 
 HTML;
